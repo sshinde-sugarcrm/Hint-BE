@@ -10,7 +10,7 @@ var app = express();
 
 
 var corsOptions = {
-    origin: 'http://hint-saish.s3-website-us-west-1.amazonaws.com:3000',
+    origin: ':3000',
     credentials: true,
     optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
