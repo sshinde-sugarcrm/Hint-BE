@@ -3,12 +3,12 @@ let router = express.Router();
 let mysql = require('mysql');
 
 let connection = mysql.createConnection({
-    host     : "hint.c6uw0k5bgh7m.us-west-1.rds.amazonaws.com",
-    user     : "root",
-    password : "hintdemo",
-    database:  "hint",
-    port     : 3306,
-    timeout: 60000
+    host     : "",
+    user     : "",
+    password : "",
+    database:  "",
+    port     : ,
+    timeout: 1223
 });
 
 
